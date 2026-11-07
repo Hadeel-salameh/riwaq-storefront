@@ -1,0 +1,16 @@
+# ─────────────────────────────────────────────────────────────
+#  Python dependencies — local development (Windows friendly)
+# ─────────────────────────────────────────────────────────────
+#  The legacy `psycopg2-binary` package has been REMOVED.
+#  It frequently fails to build/install on Windows machines.
+#
+#  It is replaced by the modern PostgreSQL driver (psycopg 3):
+#    • psycopg          → the pure-Python driver (v3, DB-API 2.0)
+#    • psycopg-binary   → precompiled libpq wheels for Windows /
+#                         macOS / Linux, so no C compiler is needed.
+#
+#  Install with:   pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+psycopg>=3.2.3,<4.0
+psycopg-binary>=3.2.3,<4.0
