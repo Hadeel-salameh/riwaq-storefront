@@ -1,6 +1,10 @@
-# RIWAQ | Bilingual E-Commerce Storefront
+RIWAQ | Bilingual E-Commerce Storefront
 
 A modern and responsive bilingual storefront showcasing handcrafted and oriental products, with a seamless shopping experience in both Arabic and English.
+
+> **🔗 Live Demo:** [https://riwaq-storefront.vercel.app](https://riwaq-storefront.vercel.app)[cite: 1]
+
+---
 
 ## About the Project
 
@@ -41,7 +45,7 @@ It provides users with a consistent browsing experience in both Arabic and Engli
 - User-friendly navigation.
 
 ### Database & API
-- PostgreSQL database integration.
+- PostgreSQL database integration (Neon Cloud).
 - Database operations using Drizzle ORM.
 - API endpoint for retrieving products.
 - Database health-check endpoint.
@@ -56,8 +60,9 @@ It provides users with a consistent browsing experience in both Arabic and Engli
 | Styling | Tailwind CSS |
 | Animations | Framer Motion |
 | Icons | Lucide React |
-| Database | PostgreSQL |
+| Database | PostgreSQL (Neon) |
 | ORM | Drizzle ORM |
+| Deployment | Vercel |
 
 ## Project Structure
 
@@ -73,93 +78,80 @@ RIWAQ/
 ├── README.md
 ├── package.json
 └── tsconfig.json
-```
-
-## Getting Started
-
-### Prerequisites
-
+Getting Started
+Prerequisites
 Make sure you have the following installed:
 
-- Node.js
-- npm
-- PostgreSQL
+Node.js
 
-### Installation
+npm
 
-**1. Clone the repository**
+PostgreSQL
 
-```bash
-git clone https://github.com/USERNAME/riwaq-storefront.git
-```
+Installation
+1. Clone the repository
 
-**2. Navigate to the project directory**
+Bash
+git clone [https://github.com/Hadeel-salameh/riwaq-storefront.git](https://github.com/Hadeel-salameh/riwaq-storefront.git)
+2. Navigate to the project directory
 
-```bash
+Bash
 cd riwaq-storefront
-```
+3. Install dependencies
 
-**3. Install dependencies**
-
-```bash
+Bash
 npm install
-```
+4. Configure environment variables
 
-**4. Configure environment variables**
-
-Create a local `.env` file and configure the required environment variables.
+Create a local .env file and configure the required environment variables.
 
 Example:
 
-```env
+Code snippet
 DATABASE_URL=your_database_connection_string
-```
+5. Run the development server
 
-Never commit your actual `.env` file or expose database credentials.
-
-**5. Run the development server**
-
-```bash
+Bash
 npm run dev
-```
-
-**6. Open the application**
+6. Open the application
 
 Visit:
 
-```text
+Plaintext
 http://localhost:3000
-```
-
-## Project Scope
-
+Project Scope
 RIWAQ currently focuses on the storefront and product catalog experience.
 
 The following full e-commerce capabilities are not currently implemented:
 
-- Functional shopping cart.
-- User registration and authentication.
-- Order management.
-- Online payment processing.
+Functional shopping cart.
 
-## Project Goals
+User registration and authentication.
 
+Order management.
+
+Online payment processing.
+
+Project Goals
 This project demonstrates practical experience in:
 
-- Building modern web applications with Next.js and React.
-- Developing bilingual interfaces.
-- Implementing RTL and LTR layouts.
-- Creating responsive and interactive user interfaces.
-- Integrating PostgreSQL databases using Drizzle ORM.
-- Organizing product data and building API endpoints.
+Building modern web applications with Next.js and React.
 
-## Project Status
+Developing bilingual interfaces.
 
-**Current Status:** Storefront and product catalog implementation.
+Implementing RTL and LTR layouts.
 
----
+Creating responsive and interactive user interfaces.
 
-**RIWAQ**  
-*A digital experience celebrating handcrafted and oriental products.*
+Integrating PostgreSQL databases (Neon) using Drizzle ORM.
+
+Organizing product data and deploying production-ready apps on Vercel.
+
+Project Status
+Current Status: Completed, deployed, and production-ready.
+
+RIWAQ
+
+A digital experience celebrating handcrafted and oriental products.
 
 Developed as a web development portfolio project.
